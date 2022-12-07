@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background: rgb(255 243 136 / 97%);
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 3rem;
+}
+
+.main{
+    width: 35rem;
+    height: 16rem;
+    background-color: #b7eaff;
+    position:absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 3px black solid;
+    border-radius: 3rem;
+}
+
+.main p{
+    text-align: center;
+}
+
+.emoji{
+    font-size: 3rem;
+}
+
+.fact{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+
+
+.main button{
+    width: 6rem;
+    height: 2.8rem;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: black;
+    background-color:#f7bb4f;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+footer a{
+    color: black;
+}
