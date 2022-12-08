@@ -1,6 +1,6 @@
 let fact = document.getElementById("fact")
 let btn = document.getElementById("newfact")
-let api_key = process.env.api_key1;
+let api_key = '';
 function getfact() {
 $.ajax({
     method: 'GET',
